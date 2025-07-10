@@ -8,14 +8,12 @@ import Register from './components/Register'
 function App() {
 
   return (
-    // <div className='App-Container'>
-    //   <h1 style={{backgroundColor:"orange"}}>MERN Frontend</h1>
-    //   <Home age = {20}/>
-    //   <h3>Tis is Footer</h3>
-    // </div>
-   <div className='App-Container'>
-    <Register />
-   </div>
+    <div className='App-Container'>
+      <h1 style={{backgroundColor:"orange"}}>MERN Frontend</h1>
+      <Register />
+      {/* <Home age = {20}/> */}
+      <h3>Tis is Footer</h3>
+    </div>
     
   )
 }
